@@ -20,6 +20,7 @@
 		E7E4BD142A0545C000AA4038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E4BD172A0545C000AA4038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7E4BD192A0545C000AA4038 /* FolderPainter3000PRO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolderPainter3000PRO.entitlements; sourceTree = "<group>"; };
+		E7E4BD1F2A054C8C00AA4038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		E7E4BD0F2A0545BE00AA4038 /* FolderPainter3000PRO */ = {
 			isa = PBXGroup;
 			children = (
+				E7E4BD1F2A054C8C00AA4038 /* Info.plist */,
 				E7E4BD102A0545BE00AA4038 /* FolderPainter3000PROApp.swift */,
 				E7E4BD122A0545BE00AA4038 /* ContentView.swift */,
 				E7E4BD142A0545C000AA4038 /* Assets.xcassets */,
@@ -274,6 +276,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FolderPainter3000PRO/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +304,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FolderPainter3000PRO/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
